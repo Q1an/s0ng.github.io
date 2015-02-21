@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		
+		<title>Homepage</title>
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
+		
+		<!-- Custom CSS -->
+		<link href="dist/css/scrolling-nav.css" rel="stylesheet"/>
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		 <![endif]-->
+		<style>#presensCarousel li.active {background-color: #500;}
+			#presensCarousel li {border-color: #500;}</style>
+	</head>
+	
+	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+	
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="
+			opacity: 0.8">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top">Homepage</a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+						<li class="hidden">
+							<a class="page-scroll" href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#photos">Photos</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#intro">Intro</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#projects">Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#academics">Academics</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		
+		<!-- Photos Section -->
+		<section id="photos" class="odd-section" style="padding: 0px; height: 100%">
+			
+			
+			<div id="photosCarousel" class="carousel slide" data-ride="carousel">
+				
+				
+				<div class="carousel-inner">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#photosCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#photosCarousel" data-slide-to="1"></li>
+						<li data-target="#photosCarousel" data-slide-to="2"></li>
+						<li data-target="#photosCarousel" data-slide-to="3"></li>
+						<li data-target="#photosCarousel" data-slide-to="4"></li>
+						<!--
+						<li data-target="#photosCarousel" data-slide-to="5"></li>
+						<li data-target="#photosCarousel" data-slide-to="6"></li>
+						 -->
+					</ol>
+					
+					<div class="item active">
+						<div class="crop" style="background-image: url(images/photos/Photo0.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Sai Wan, Hong Kong</h1>
+								<p>Captured at the last dock in Hong Kong. Long time exposure is used for presenting the quiescence of the sea.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo1.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Victoria Peak, Hong Kong</h1>
+								<p>In the twilight, looking into the distance from an alley on the peak. The imperishable light glittering on the island, and the ships mooring in the harbor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo2.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>North Coast, Mauritius</h1>
+								<p>After 5 days' waiting on the seashore, I saw the expected gorgeous view of the sunset. </p>
+								<p>HDR used.</P>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo3.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Nan Hui, Shanghai</h1>
+								<p>A flower that was once buried under the ground. Time to bring it to the sunlight.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo6.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Hurstville, Australia</h1>
+								<p>The puppy of a friend in Sydney. </p>
+								<p>What is behind those melancholy eyes?</p>
+							</div>
+						</div>
+					</div>
+					<!--
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo5.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>My Photos</h1>
+								<p>Write something. Write something. Write something. Write something. Write something. Write something. Write something. Write something.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/photos/Photo6.jpg)"></div>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>My Photos</h1>
+								<p>Write something. Write something. Write something. Write something. Write something. Write something. Write something. Write something.</p>
+							</div>
+						</div>
+					</div>
+					-->
+					<!-- LR Buttons -->
+					<a class="left carousel-control" href="#photosCarousel" role="button" data-slide="prev"></a>
+					<a class="right carousel-control" href="#photosCarousel" role="button" data-slide="next"></a>
+				</div>
+			</div> <!-- End carousel -->
+			
+		</section>
+
+		<!-- About Section -->
+		<section id="page-top" class="odd-section">
+			<div class="container" style="height: 100%">
+				<div class="row" style="height: 100">
+					<div id="person" class="col-lg-6" style="height: 100%">
+						<center style="height: 100%"><img src="images/Person.jpg" style="height: 450px"/></center>
+					</div>
+					<div class="col-lg-6" style="padding-top: 10%">
+						<h1 class="bigtitle">About me</h1>
+						<br>
+						<p style="padding-left: 10%; padding-right: 10%">·</p>
+						<center style="margin-bottom: 30px"><a class="btn btn-default page-scroll" href="#intro">Find out more</a></center>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!-- Intro Section -->
+		<section id="intro" class="even-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Intro Section</h1>
+					</div>
+					
+					<p></p>
+					<div class="row" style="padding-top: 20px">
+						<div class="col-md-3">
+							<center><img src="images/icons/Battery.png" style="width: 250px"/>
+							<h3 style="margin-top: -20px">Passion</h3></center>
+							<p>Powered by 100% passion in high-tech related knowledge and technology.</p>
+						</div>
+						<div class="col-md-3">
+							<center><img src="images/icons/Lightening.png" style="width: 250px"/>
+							<h3 style="margin-top: -20px">Creativity</h3></center>
+							<p>Function well in programming, robotics, cyber-tech etc. </p>
+						</div>
+						<div class="col-md-3">
+							<center><img src="images/icons/Refresh.png" style="width: 250px"/>
+							<h3 style="margin-top: -20px">Teamwork</h3></center>
+							<p>Possess characteristics as friendliness, adventurous, gentle and outgoing.</p>
+						</div>
+						<div class="col-md-3">
+							<center><img src="images/icons/Fire.png" style="width: 250px"/>
+							<h3 style="margin-top: -20px">Function</h3></center>
+							<p>Additional application in sports, photography, sketching and designing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Projects Section -->
+		<section id="projects" class="odd-section">
+			<div class="container">
+				<div class="row" style="height: 100%">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Projects Section</h1>
+					</div>
+					<p>The best way to predict is to create. Doing projects is my own way of creation, and I believe my efforts may push the world towards a better future.</p>
+					<div class="row" style="height: 100%; padding-bottom: 20px">
+						<a class="col-md-6" href="MotionControl.html">
+							<div class="col-md-6">
+								<center><h3 style="margin-top: 20px">Remote Motion-Sensing Control Robot</h3></center>
+								<p>Used the Kinect as a motion capturing input of a robot system.<br />Gave robot the ability to mimic the movement of human beings.<br />Provided an easy, natural and fast way to interacts with robots.</p>
+							</div>
+							<div class="col-md-6"><img class="block" src="images/projects/MotionRobot.jpg" style="width: 200px"/></div>
+						</a>
+						<a class="col-md-6">
+							<div class="col-md-6">
+								<center><h3 style="margin-top: 20px">A Low-cost 3D-Printer Solution</h3></center>
+								<p>During summer vacation, my friend and I built a 3D printer based on Reprap with extremely low cost. We help our high school engineering lab build one too.s</p>
+							</div>
+							<div class="col-md-6"><img class="block" src="images/projects/3DPrinter.jpg" style="width: 200px"/></div>
+						</a>
+					</div>
+					<div class="row" style="height: 100%; padding-bottom: 20px">
+						<a class="col-md-6">
+							<div class="col-md-6">
+								<center><h3 style="margin-top: 20px">Distributed Flight Array<br>(Ongoing)</h3></center>
+								<p>Aimed at dividing traditional copters into distributive modules.<br>Designed the algorithm to plan the route for any combinations.</p>
+							</div>
+							<div class="col-md-6"><img class="block" src="images/projects/3DPrinter.png" style="width: 200px"/></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Academics Section -->
+		<section id="academics" class="even-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Academics Section</h1>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<p style="margin-top: 30%">Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics. Description for academics.</p>
+							<div class="col-md-3">
+								<p>presentation</p>
+							</div>
+							<div class="col-md-3">
+								<p>C++ programming</p>
+							</div>
+							<div class="col-md-3">
+								<p>\(\LaTeX\)</p>
+							</div>
+						</div>
+						<div class="col-md-6" style="margin-top: 2%;
+							max-width: 50%">
+							<div style="padding-top: 75%"></div>
+							<div id="presensCarousel" class="abs carousel slide" data-ride="carousel">
+								
+								
+								<div class="carousel-inner">
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#presensCarousel" data-slide-to="0" class="active"></li>
+										<li data-target="#presensCarousel" data-slide-to="1"></li>
+										<li data-target="#presensCarousel" data-slide-to="2"></li>
+										<li data-target="#presensCarousel" data-slide-to="3"></li>
+									</ol>
+									
+									<div class="item active">
+										<div class="crop" style="background-image: url(images/presens/Presen0.jpg)"></div>
+									</div>
+									<div class="item">
+										<div class="crop" style="background-image: url(images/presens/Presen1.jpg)"></div>
+									</div>
+									<div class="item">
+										<div class="crop" style="background-image: url(images/presens/Presen2.jpg)"></div>
+									</div>
+									<div class="item">
+										<div class="crop" style="background-image: url(images/presens/Presen3.jpg)"></div>
+									</div>
+									
+									<!-- LR Buttons -->
+									<a class="left carousel-control" href="#presensCarousel" role="button" data-slide="prev" style="opacity: 0"></a>
+									<a class="right carousel-control" href="#presensCarousel" role="button" data-slide="next" style="opacity: 0"></a>
+								</div>
+							</div> <!-- End carousel -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+				
+		<!-- Contact Section -->
+		<section id="contact" class="odd-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Contact Section</h1>
+					</div>
+				</div>
+				<h1>Contact me</h1>
+				<br>
+				<p><h4>Email: <a>i@qyd.me</a></h4></p>
+				<!--p><h4>Tel: <a>(+1)23</a></h4></p-->
+				<br>
+				<h1>Links</h1>
+				<br>
+				<p><a href="http://www.hku.hk"><h4>The University of Hong Kong</h4></a></p>
+				<p><a href="http://www.shs.sh.cn"><h4>Shanghai High School</h4></a></p>
+			</div>
+		</section>
+
+
+		
+		<!-- jQuery -->
+		<script src="dist/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JavaScript -->
+		<script src="dist/js/bootstrap.min.js"></script>
+		
+		<!-- MathJax -->
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+		</script>
+		
+		<!-- Scrolling Nav JavaScript -->
+		<script src="dist/js/jquery.easing.min.js"></script>
+		<script src="dist/js/scrolling-nav.js"></script>
+		
+	</body>
+	
+</html>

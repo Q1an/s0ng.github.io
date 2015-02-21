@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content=""/>
+		<meta name="author" content=""/>
+		
+		<title>Remote Motion-Sensing Control Robot</title>
+		
+		<!-- Bootstrap Core CSS -->
+		<link href="dist/css/bootstrap.min.css" rel="stylesheet"/>
+		
+		<!-- Custom CSS -->
+		<link href="dist/css/scrolling-nav.css" rel="stylesheet"/>
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		 <![endif]-->
+		<style>#marsCoversCarousel li.active {background-color: #000;}
+			#marsCoversCarousel li {border-color: #000;}</style>
+	</head>
+	
+	<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+	
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+		
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="
+			opacity: 0.8">
+			<div class="container">
+				<div class="navbar-header page-scroll">
+					<a class="navbar-brand page-scroll" href="index.html#projects"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#page-top">Motion-sensing control system</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+						<li class="hidden">
+							<a class="page-scroll" href="#page-top"></a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#hardware">Hardware</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#software">Software</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#system">System</a>
+						</li>
+						<!--li>
+							<a class="page-scroll" href="#projects">Projects</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#academics">Academics</a>
+						</li-->
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="page-scroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		
+		<!-- About Section -->
+		<section id="page-top" class="odd-section">
+			<div id="marsCoversCarousel" class="abs carousel slide" data-ride="carousel">
+				
+				
+				<div class="carousel-inner">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#marsCoversCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#marsCoversCarousel" data-slide-to="1"></li>
+						<li data-target="#marsCoversCarousel" data-slide-to="2"></li>
+					</ol>
+					
+					<div class="item active">
+						<div class="crop" style="background-image: url(images/MC/MC0.jpg)"></div>
+						<div class="abs container" style="height: 100%; top: 150px">
+							<div class="row" style="height: 100%">
+								<div class="col-lg-6" style="padding-top: 10%">
+									<h1 class="bigtitle">Hardware Design</h1>
+									<br>
+									<p style="padding-left: 10%; padding-right: 10%">This motion-sensing system consists of Kinect as the major input and Vex Robot as well as the server motors as the output. A laptop is responsible for the coordination of the whole system. </p>
+									<center><a class="btn btn-default page-scroll" href="#Hardware">Find out more</a></center>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/MC/MC1.png)"></div>
+						<div class="abs container" style="height: 100%; top: 150px">
+							<div class="row" style="height: 100%">
+								<div class="col-lg-6"></div>
+								<div class="col-lg-6" style="padding-top: 10%; color: #000">
+									<h1 class="bigtitle">Software Design</h1>
+									<br>
+									<p style="padding-left: 10%; padding-right: 10%">The software is written in C#. With a fully-functional local version and a simple remote version, it provides the operator easy and natural way to control. Behind this algorithm, I also design and improve the algorithm to capture the motion and deliver the depth data.</p>
+									<center><a class="btn btn-default page-scroll" href="#Software">Find out more</a></center>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="crop" style="background-image: url(images/MC/MC2.svg)"></div>
+						<div class="abs container" style="height: 100%; top: 150px">
+							<div class="row" style="height: 100%">
+								<div class="col-lg-7"></div>
+								<div class="col-lg-5" style="padding-top: 10%; color: #fff">
+									<h1 style="margin-top: +50px" class="bigtitle">System Design</h1>
+									<br>
+									<p style="padding-left: 10%; padding-right: 10%">This part mainly introduced the funtion of remote rescue robot, as an application of the motion-sensing control system. </p>
+									<center><a class="btn btn-default page-scroll" href="#System">Find out more</a></center>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- LR Buttons -->
+					<a class="left carousel-control" href="#marsCoversCarousel" role="button" data-slide="prev" style="opacity: 0"></a>
+					<a class="right carousel-control" href="#marsCoversCarousel" role="button" data-slide="next" style="opacity: 0"></a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Hardware Section -->
+		<section id="hardware" class="even-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Hardware design</h1>
+					</div>
+					<p> <br></p>
+					<div class="row" style="padding-top: 20px">
+						<div class="col-md-4">
+							<center><img src="images/Hardware/Hardware0.jpg" style="height: 250px"/>
+							<h3 style="margin-top: +20px">The Controller</h3></center>
+							<p>This demo system is based on an open-source Arduino board with a wireless shield. The Arduino board is specially designed for serve control propose.</p>
+						</div>
+						<div class="col-md-4">
+							<center><img src="images/Hardware/Hardware1.jpg" style="height: 250px"/>
+							<h3 style="margin-top: +20px">The Rotation of Robot Arm</h3></center>
+							<p>Due to the limited torque provided by the simple serve motor, inspired by the Chinese round table, I designed a similar structure to guarantee its safety and performance.</p>
+						</div>
+						<div class="col-md-4">
+							<center><img src="images/Hardware/Hardware2.png" style="height: 250px"/>
+							<h3 style="margin-top: +20px">4-DOF Test Robotic Arm</h3></center>
+							<p>This 4-DOF robitic arm is a prototype to verfiy the stability and accuracy of the whole sytem.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Software Section -->
+		<section id="software" class="odd-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Software design</h1>
+					</div>
+					<p> <br></p>
+					<div class="row" style="padding-top: 20px">
+						<div class="col-md-12">
+							<center><img src="images/Software/Software0.png" style="width: 1000px"/>
+							<h3 style="margin-top: +20px">Control Interface</h3></center>
+							<p>This is the local version of the software. It provides all the raw data and an intuitive view of skeleton in 3D dimension. It also offers a platform for the operator to calibrate the system. In this software, operator can get access to the latest information from the robot and use body to control it to deal with all the situations.</p>
+						</div>
+						<div class="col-md-12">
+							<center><img src="images/Software/Software1.png" style="width: 1000px"/>
+							<h3 style="margin-top: +20px">Remote Software</h3></center>
+							<p>This is the screen of remote laptop. This program is responsible to transfer the remote depth and video data, robot status and robotic arm position to the local computer. It also uses the local data to drive the robot.</p>
+						</div>
+						<div class="col-md-12">
+							<center><img src="images/Software/Software2.jpg" style="height: 250px"/>
+							<h3 style="margin-top: +20px">Improved Depth Algorithm</h3></center>
+							<p>The right image is the original algorithm provided by Microsoft. I design a algorithm to detect the detail and maximumize the information as shown in the left image.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- System Section -->
+		<section id="system" class="even-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Flow Chart</h1>
+					</div>
+					<p> <br></p>
+					<div class="row" style="padding-top: 20px">
+						<div class="col-md-12">
+							<center><img src="images/System/System2.svg" style="width: 1000px"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="odd-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="bigtitle">Contact Section</h1>
+					</div>
+				</div>
+				<h1>Contact me</h1>
+				<br>
+				<p><h4>Email: <a>i@qyd.me</a></h4></p>
+				<br>
+				<h1>Links</h1>
+				<br>
+				<p><a href="http://www.hku.hk"><h4>The University of Hong Kong</h4></a></p>
+				<p><a href="http://www.shs.sh.cn"><h4>Shanghai High School</h4></a></p>
+			</div>
+		</section>
+		
+		<!-- jQuery -->
+		<script src="dist/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JavaScript -->
+		<script src="dist/js/bootstrap.min.js"></script>
+		
+		<!-- Scrolling Nav JavaScript -->
+		<script src="dist/js/jquery.easing.min.js"></script>
+		<script src="dist/js/scrolling-nav.js"></script>
+		
+	</body>
+	
+</html>
